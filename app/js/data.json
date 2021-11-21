@@ -1,0 +1,92 @@
+[
+  {    
+    "title": "Merlion",
+    "lat": 1.286920,
+    "lng": 103.854570,
+    "subtitle": " Merlion Subtitle",
+    "description": "The Merlion is the official mascot of Singapore, depicted as a mythical creature with the head of a lion and the body of a fish. Being of prominent symbolic nature to Singapore and Singaporeans in general, it is widely used to represent both the city state and its people in sports teams, advertising, branding, tourism and as a national personification.",
+    "image" : "https://www.visitsingapore.com/id_id/see-do-singapore/recreation-leisure/viewpoints/merlion-park/_jcr_content/par-carousel/carousel_detailpage/carousel/item0.thumbnail.carousel-img.740.416.jpg",
+    "address" : "10 Bay Front Avenue, Singapore",
+    "site" : "www.visitsingapore.sg"
+  },
+  {    
+    "title": "Asian Civilisations Museum",
+    "lat": 1.287466,
+    "lng": 103.851424,
+    "subtitle": "Asian Civilisations Museum Subtitle",
+    "description": "The Asian Civilisations Museum (ACM) is an institution which forms a part of the four museums in Singapore, the other three being the Peranakan Museum at Old Tao Nan School, the National Museum of Singapore and the Singapore Art Museum.",
+    "image" : "https://a.cdn-hotels.com/gdcs/production135/d1319/d0830b40-270f-4f71-83bf-d98613d2b656.jpg",
+    "address" : "1 Empress Pl, Singapore 179555",
+    "site" : "www.visitsingapore.sg"
+  },
+  {    
+    "title": "Clarke Quay",
+    "lat": 1.290555,
+    "lng": 103.846188,
+    "subtitle": "Clarke Quay Subtitle",
+    "description": "Clarke Quay is a historical riverside quay in Singapore, located within the Singapore River Planning Area. The quay is situated upstream from the mouth of the Singapore River and Boat Quay.",
+    "image" : "https://www.visitsingapore.com/id_id/walking-tour/eat-drink/drinking-clarke-quay-boat-quay/_jcr_content/par-carousel/carousel_detailpage/carousel/item_1.thumbnail.carousel-img.740.416.jpg",
+    "address" : "3 River Valley Rd, Singapore 179024",
+    "site" : "www.visitsingapore.sg"
+  },
+  {    
+    "title": "Fort Canning Park",
+    "lat": 1.295526,
+    "lng": 103.845331,
+    "subtitle": "Fort Canning Park Subtitle",
+    "description": "Fort Canning Park, an iconic hilltop landmark has witnessed many of Singapore’s historical milestones. The hill once sited the palaces of 14th century Kings and served as the Headquarters of the Far East Command Centre and British Army Barracks.",
+    "image" : "https://www.visitsingapore.com/id_id/see-do-singapore/nature-wildlife/parks-gardens/fort-canning-park/_jcr_content/par-carousel/carousel_detailpage/carousel/item_1.thumbnail.carousel-img.740.416.jpg",
+    "address" : "River Valley Rd, Singapore 179037",
+    "site" : "www.visitsingapore.sg"
+  },
+  {    
+    "title": "Orchard Road",
+    "lat": 1.302279,
+    "lng": 103.837399,
+    "subtitle": "Orchard Road Subtitle",
+    "description": "Orchard Road, often known colloquially as Orchard, is a major 2.5 km (1.6 mi)–long road in the Central Area of Singapore.[4] A famous tourist attraction, it is an upscale shopping area of Singapore, with numerous internationally renowned department stores, restaurants and coffeehouses located in its vicinity.",
+    "image" : "https://www.befreetour.com/img/attraction/orchard-road20191008174624.jpg",
+    "address" : "Orchard Road, Singapore 238878",
+    "site" : "www.visitsingapore.sg"
+  },
+  {    
+    "title": "Singapore Flyer",
+    "lat": 1.289332,
+    "lng": 103.863152,
+    "subtitle": " Singapore Flyer Subtitle",
+    "description": "At 165 metres, the iconic Singapore Flyer is Asia’s largest observation wheel. Book tickets on Klook and treat your family or visiting friends to breathtaking views of our sprawling urban metropolis. Be it a romantic date or a day out with the kids, a flight on the Singapore Flyer is perfect for all ages and just about any occasion.",
+    "image" : "https://www.visitsingapore.com/id_id/see-do-singapore/recreation-leisure/viewpoints/singapore-flyer/_jcr_content/par-carousel/carousel_detailpage/carousel/item2.thumbnail.carousel-img.740.416.jpg",
+    "address" : "30 Raffles Ave, Singapore 039803",
+    "site" : "www.visitsingapore.sg"
+  },
+  {    
+    "title": "Marina Bay Sands",
+    "lat": 1.283099,
+    "lng": 103.860295,
+    "subtitle": " ­ Marina Bay Sands Subtitle",
+    "description": "Marina Bay Sands is an integrated resort fronting Marina Bay in Singapore, owned by the Las Vegas Sands Corporation. At its opening in 2010, it was billed as the world's most expensive standalone casino property at S$8 billion (US$6.88 billion), including the land cost.",
+    "image" : "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_klook_water/activities/lt3zbohfhncs1ebmr4fz/Staycation:%20Marina%20Bay%20Sands%20(Eksklusif).jpg",
+    "address" : "10 Bayfront Ave, Singapore 018956",
+    "site" : "www.visitsingapore.sg"
+  },
+  {    
+    "title": "Gardens By The Bay",
+    "lat": 1.281790,
+    "lng": 103.863954,
+    "subtitle": " ­ Gardens By The Bay Subtitle",
+    "description": "Gardens by the Bay, with its award-winning cooled conservatories and iconic Supertrees, has placed Singapore squarely on the international map and is a source of national pride.",
+    "image" : "https://www.visitsingapore.com/id_id/see-do-singapore/architecture/modern/gardens-by-the-bay/_jcr_content/par-carousel/carousel_detailpage/carousel/item0.thumbnail.carousel-img.740.416.jpg",
+    "address" : "18 Marina Gardens Dr, Singapore 018953",
+    "site" : "www.visitsingapore.sg"
+  },
+  {    
+    "title": "Chinatown",
+    "lat": 1.284193,
+    "lng": 103.843362,
+    "subtitle": " ­ Chinatown Subtitle",
+    "description": "In his 1822 Master Town Plan, Sir Stamford Raffles allocated the whole area west of the Singapore River for a Chinese settlement known as the Chinese Campong, envisaging that Chinese would form the bulk of future town dwellers.",
+    "image" : "https://www.visitsingapore.com/id_id/walking-tour/culture/in-the-neighbourhood-chinatown/_jcr_content/par-carousel/carousel_detailpage/carousel/item1.thumbnail.carousel-img.740.416.jpg",
+    "address" : "29A/B Smith Street, Singapore 058943",
+    "site" : "www.visitsingapore.sg"
+  }
+]

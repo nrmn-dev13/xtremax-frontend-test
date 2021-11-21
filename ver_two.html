@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<!-- General meta tags needed-->
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- Needed for responsive design -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- If you want custom browser colors on mobile -->
+	<meta name="theme-color" content="#1843c1" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="#1843c1">
+
+	<title></title>
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+		rel="stylesheet">
+
+	<!-- CSS File -->
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+		integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="dist/style.css?cb=1637473533372">
+
+	<!-- JavaScript File -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script defer src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
+	<script defer src="dist/all.js?cb=1637473533372"></script>
+	<script defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRxCgYCGNIF364SvDEaqKukxix2aipsEA&callback=initMap"></script>
+</head>
+
+<body class="webapp version--two">
+	<aside class="aside">
+		<nav class="sidenav">
+			<ul class="list">
+				<li class="list__item active">
+					<a href="javascript:void(0)" class="link">
+						<i class="icon icon--browse"></i>
+						<p class="title">Browse</p>
+					</a>
+				</li>
+				<li class="list__item">
+					<a href="javascript:void(0)" class="link">
+						<i class="icon icon--attraction"></i>
+						<p class="title">Suggest Attraction</p>
+					</a>
+				</li>
+				<li class="list__item">
+					<a href="javascript:void(0)" class="link">
+						<i class="icon icon--video"></i>
+						<p class="title">Videos</p>
+					</a>
+				</li>
+				<li class="list__item">
+					<a href="javascript:void(0)" class="link">
+						<i class="icon icon--blog"></i>
+						<p class="title">Blog</p>
+					</a>
+				</li>
+				<li class="list__item">
+					<a href="javascript:void(0)" class="link">
+						<i class="icon icon--about"></i>
+						<p class="title">About</p>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="subnav">
+			<div class="subnav__header">
+				<form class="form">
+					<div class="form-group">
+						<div class="wrapper">
+							<select class="form-control">
+								<option>Filter by Favorite</option>
+								<option>Filter by Name</option>
+							</select>
+							<i class="icon icon--caret-down fas fa-caret-down"></i>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="subnav__body">
+				<ul class="list">
+					<li class="list__item">
+						<a id="0" href="javascript:void(0)" class="link link-menu" data-markerid="0">
+							<p class="title">Merlion</p>
+						</a>
+					</li>
+					<li class="list__item">
+						<a id="1" class="link link-menu link-menu--collapse collapsed" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false"
+							aria-controls="collapseOne" data-markerid="6">
+							<p class="title">Marina Bay Sands</p>
+							<i class="icon icon--caret-down fas fa-caret-down"></i>
+						</a>
+						<div class="sub-list collapse" id="collapseOne">
+							<ul class="list">
+								<li class="list__item">
+									<a href="javascript:void(0)" class="link">Art Science Museum</a>
+								</li>
+								<li class="list__item">
+									<a href="javascript:void(0)" class="link">Marina Bay Sands Park</a>
+								</li>
+								<li class="list__item">
+									<a href="javascript:void(0)" class="link">Double Helix Bridge</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="list__item">
+						<a id="2" class="link link-menu link-menu--collapse collapsed" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false"
+							aria-controls="collapseTwo" data-markerid="7">
+							<p class="title">Garden by the Bay</p>
+							<i class="icon icon--caret-down fas fa-caret-down"></i>
+						</a>
+						<div class="sub-list collapse" id="collapseTwo">
+							<ul class="list">
+								<li class="list__item">
+									<a href="javascript:void(0)" class="link">Title One</a>
+								</li>
+								<li class="list__item">
+									<a href="javascript:void(0)" class="link">Title Two</a>
+								</li>
+								<li class="list__item">
+									<a href="javascript:void(0)" class="link">Title Three</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="list__item">
+						<a class="link link-menu link-menu--collapse collapsed" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false"
+							aria-controls="collapseThree" data-markerid="8">
+							<p class="title">China town</p>
+							<i class="icon icon--caret-down fas fa-caret-down"></i>
+						</a>
+						<div class="sub-list collapse" id="collapseThree">
+							<ul class="list">
+								<li class="list__item">
+									<a href="javascript:void(0)" class="link">Title One</a>
+								</li>
+								<li class="list__item">
+									<a href="javascript:void(0)" class="link">Title Two</a>
+								</li>
+								<li class="list__item">
+									<a href="javascript:void(0)" class="link">Title Three</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="list__item">
+						<a href="javascript:void(0)" class="link link-menu" data-markerid="1">
+							<p class="title">Asian Civilisations Museum</p>
+						</a>
+					</li>
+					<li class="list__item">
+						<a href="javascript:void(0)" class="link link-menu" data-markerid="2">
+							<p class="title">Clarke Quay</p>
+						</a>
+					</li>
+					<li class="list__item">
+						<a href="javascript:void(0)" class="link link-menu" data-markerid="3">
+							<p class="title">Fort Canning Park</p>
+						</a>
+					</li>
+					<li class="list__item">
+						<a href="javascript:void(0)" class="link link-menu" data-markerid="5">
+							<p class="title">Singapore Flyer</p>
+						</a>
+					</li>
+					<li class="list__item">
+						<a href="javascript:void(0)" class="link link-menu" data-markerid="4">
+							<p class="title">Orchard Road</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</aside>
+	<main class="main">
+		<header class="header">
+			<h1 class="title">TOP-RATED TOURIST ATTRACTIONS IN SINGAPORE</h1>
+			<div class="action-wrapper">
+				<i class="icon icon--setting"></i>
+				<i class="icon icon--question"></i>
+				<i class="icon icon--close"></i>
+			</div>
+		</header>
+		<section class="section-map">
+			<div id="map" class="map"></div>
+			<div class="overlay">
+				<figure class="overlay__image-wrapper">
+					<img src="" alt="" class="overlay__image">
+				</figure>
+				<div class="overlay__title-wrapper">
+					<h6 class="overlay__title"></h6>
+				</div>
+				<div class="overlay__info">
+					<p class="text text--subtitle"></p>
+					<p class="text text--description"></p>
+					<div class="overlay__wrapper">
+						<i class="icon icon--location fas fa-map-marker-alt"></i>
+						<p class="text text--address"></p>
+					</div>
+					<div class="overlay__wrapper">
+						<i class="icon icon--globe fas fa-globe-americas"></i>
+						<p class="text text--site"></p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+
+</html>
